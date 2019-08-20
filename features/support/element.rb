@@ -40,6 +40,10 @@ class Element
     find.double_click
   end
 
+  def right_click
+    find.right_click
+  end
+
   def set(value)
     find.set(value)
   end
@@ -67,4 +71,5 @@ class Element
   def attribute(attributeName)
     find[:atributeName]
   end
+  
 end
